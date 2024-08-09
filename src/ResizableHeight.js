@@ -1,6 +1,6 @@
 //Pikulin.PW ResizableHeight Plugin – https://github.com/pikulinpw/ckeditor5-resizableheight
 
-import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
+import { Plugin } from 'ckeditor5';
 
 export default class ResizableHeight extends Plugin {
     init() {
